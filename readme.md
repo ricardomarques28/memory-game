@@ -1,3 +1,6 @@
+
+![preview](https://github.com/user-attachments/assets/f0123d8e-de04-463c-afb6-7409df50ba03)
+
 # 🎮 Jogo da Memória - Demon Slayer: Kimetsu no Yaiba 🗡️
 
 Bem-vindo ao desafio! Este projeto foi desenvolvido com HTML, CSS e JavaScript, trazendo uma experiência divertida e interativa com um clássico jogo da memória. Inspirado no incrível universo do anime Demon Slayer: Kimetsu no Yaiba, você poderá desafiar suas habilidades e memória enquanto se aventura pelos personagens icônicos da série.🚀
