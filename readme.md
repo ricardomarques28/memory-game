@@ -1,4 +1,3 @@
-
 ![preview](https://github.com/user-attachments/assets/f0123d8e-de04-463c-afb6-7409df50ba03)
 
 # 🎮 Jogo da Memória - Demon Slayer: Kimetsu no Yaiba 🗡️
@@ -65,7 +64,7 @@ memory-game/
 
 ## 🌐 Experimente o Jogo
 
-Link para o Projeto:
+Link para o Projeto: ![Jogue a agora](https://ricardomarques28.github.io/memory-game/)
 
 ## 💡 Considerações Finais
 
