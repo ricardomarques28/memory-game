@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Font Awesome Icons</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <audio src="./src/sounds/background.m4a" autoplay loop></audio>
+    <div class="container">
+      <h2>JOGO DA MEMÓRIA</h2>
+      <div class="game"></div>
+      <button class="reset" onclick="window.location.reload()">
+        RESET GAME
+      </button>
+      <footer>
+        <p>Ricardo Marques © 2024-2025</p>
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/ricardo-marques-330b1875/"
+            target="_blank"
+            ><i style="font-size: 24px; color: #00ffff" class="fa"
+              >&#xf08c;</i
+            ></a
+          >
+          <a href="https://github.com/ricardomarques28" target="_blank"
+            ><i class="fa fa-github" style="font-size: 24px; color: #00ffff"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+    <script src="./src/scripts/engine.js"></script>
+  </body>
+</html>

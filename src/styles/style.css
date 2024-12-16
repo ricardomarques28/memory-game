@@ -1,0 +1,149 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../img/background.jpg") center/cover repeat, rgb(47, 1, 61);
+  height: 100vh;
+
+  user-select: none;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: rgba(88, 87, 88, 0.39);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: bolder;
+  text-shadow: 0 0 3px #350066;
+}
+
+.reset {
+  padding: 10px 0px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #350066;
+  border: none;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.reset:focus {
+  color: #00e1ff;
+  background-color: #582296;
+}
+
+.game {
+  width: 410px;
+  height: 410px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+}
+
+.item {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 3em;
+  transform: rotateY(180deg);
+  transition: 0.5s;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(../img/kimetsu.png),
+    linear-gradient(rgb(87, 100, 128), #581831);
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+}
+
+.item.boxOpen {
+  transform: rotateY(0deg);
+}
+
+.boxOpen::after,
+.boxMatch::after {
+  transform: rotateY(180deg);
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+.social {
+  padding-top: 5px;
+}
+
+/* Responsividade */
+
+@media (max-width: 500px) {
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    font-weight: bolder;
+  }
+
+  .reset {
+    padding: 10px 0px;
+    width: 70%;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+  }
+
+  .game {
+    width: 300px;
+    height: 300px;
+    gap: 5px;
+  }
+
+  .item {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+  }
+  .item::after {
+    border-radius: 5px;
+  }
+}
