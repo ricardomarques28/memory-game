@@ -64,7 +64,7 @@ memory-game/
 
 ## 🌐 Experimente o Jogo
 
-Link para o Projeto: ![Jogue a agora](https://ricardomarques28.github.io/memory-game/)
+Link para o Projeto: [Jogue a agora](https://ricardomarques28.github.io/memory-game/)
 
 ## 💡 Considerações Finais
 
